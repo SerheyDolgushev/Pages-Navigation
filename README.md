@@ -11,6 +11,7 @@ How to Use
 
 Simple usage:
 
+HTML:
 	#HTML
 	<div>
 		<span>Pages navigation:</span>
@@ -28,6 +29,7 @@ Simple usage:
 		<div class="page-block">Lorem Ipsum...</div>
 	</div>
 
+JavaScript:
 	#JS
 	window.addEvent( 'load', function() {
 		var options  = {
