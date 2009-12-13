@@ -8,8 +8,8 @@ authors:
 - Dolgushev Serhey (dolgushev.serhey@gmail.com)
 
 requires:
-- core/1.2.4: '*'
-- more/1.2.4.2: '*'
+- core:1.2.4: '*'
+- more:1.2.4.2: '*'
 
 provides: [NXC.PagesNavigation]
 ...
