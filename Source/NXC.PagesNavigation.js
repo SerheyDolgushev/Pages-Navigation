@@ -1,3 +1,20 @@
+/*
+---
+description: Paginator class.
+
+license: MIT-style
+
+authors:
+- Dolgushev Serhey (dolgushev.serhey@gmail.com)
+
+requires:
+- core/1.2.4: '*'
+- more/1.2.4.2: '*'
+
+provides: [NXC.PagesNavigation]
+...
+*/
+
 var NXC = NXC || {};
 NXC.PagesNavigation = new Class( {
 
@@ -73,7 +90,7 @@ NXC.PagesNavigation = new Class( {
 				if( this.options.possbileQuantities.contains( quantity ) ) {
 					this.setBlocksPerPage( quantity );
 				}
-			}	
+			}
 		}
 	},
 
@@ -264,13 +281,13 @@ NXC.PagesNavigation = new Class( {
 
 		this.fireEvent( 'pageShow', [ displayeBlocks ] );
 	},
-	
+
 	updateCurrentURI: function() {
 		if( this.options.currentURL != false ) {
 			var uri = new URI();
 			uri.set( 'fragment', 'page=' + this.currentPage + '/quatity=' + this.blocksPerPage );
-			window.location = uri.toString();	
-		}		
+			window.location = uri.toString();
+		}
 	},
 
 	scrollToTop: function ( e ) {

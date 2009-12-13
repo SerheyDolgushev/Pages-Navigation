@@ -1,0 +1,44 @@
+div.page-navigation span, div.page-navigation div {
+float:left;
+}
+
+div.page-navigation-quantity span,
+div.page-navigation-quantity div {
+float:left;
+}
+
+#page-navigation-top a,
+#page-navigation-bottom a,
+#page-navigation-quantity-top a,
+#page-navigation-quantity-bottom a {
+margin:5px;
+text-decoration:none;
+}
+
+#page-navigation-top a.page-navigation-current,
+#page-navigation-bottom a.page-navigation-current,
+#page-navigation-quantity-top a.page-navigation-quantity-current,
+#page-navigation-quantity-bottom a.page-navigation-quantity-current {
+font-weight:bold;
+font-size:1.2em;
+}
+
+#page-navigation-top a.page-navigation-other,
+#page-navigation-bottom a.page-navigation-other,
+#page-navigation-quantity-top a.page-navigation-quantity-other,
+#page-navigation-quantity-bottom a.page-navigation-quantity-other {
+font-weight:normal;
+}
+
+#virtual-pages div.page-block {
+margin:5px 0px;
+padding:5px;
+border:1px solid rgb(206, 207, 208);
+background:white;
+background-color:#F4F5F5;
+}
+
+#page-navigation-top a.page-navigation-disabled,
+#page-navigation-bottom a.page-navigation-disabled {
+color:rgb(215, 215, 215);
+}
