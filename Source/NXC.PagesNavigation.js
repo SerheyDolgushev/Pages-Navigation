@@ -7,9 +7,7 @@ license: MIT-style
 authors:
 - Dolgushev Serhey (dolgushev.serhey@gmail.com)
 
-requires:
-- core:1.2.4: '*'
-- more:1.2.4.2: '*'
+requires: core:1.2.4: '*'
 
 provides: [NXC.PagesNavigation]
 ...
