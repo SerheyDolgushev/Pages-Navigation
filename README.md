@@ -12,6 +12,7 @@ How to Use
 Simple usage:
 
 HTML:
+
 	#HTML
 	<div>
 		<span>Pages navigation:</span>
@@ -30,6 +31,7 @@ HTML:
 	</div>
 
 JavaScript:
+
 	#JS
 	window.addEvent( 'load', function() {
 		var options  = {
