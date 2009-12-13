@@ -1,0 +1,32 @@
+* {
+padding:0px;
+margin:0px;
+}
+
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-style:normal;
+font-weight:normal;
+}
+
+h3 {
+margin:20px 0 5px 20px;
+color:rgb(70, 129, 117);
+}
+
+div#body {
+background-color:rgb(240, 240, 240);
+border:1px solid rgb(206, 207, 208);
+width:600px;
+position:absolute;
+left:50%;
+margin:10px 0px 10px -300px;
+padding: 20px 40px;
+}
+
+div.border{
+border:1px solid rgb(206, 207, 208);
+padding:5px;
+margin-bottom:10px;
+}
